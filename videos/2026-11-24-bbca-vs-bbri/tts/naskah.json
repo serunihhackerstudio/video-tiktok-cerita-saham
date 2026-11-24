@@ -1,0 +1,16 @@
+{
+  "voice": "id-ID-ArdiNeural",
+  "rate": "+6%",
+  "pitch": "-4Hz",
+  "scenes": [
+    {"id": "s1", "text": "BBCA lawan BBRI. Dua bank terbesar, dua gaya berbeda. Sama-sama dijual asing tahun ini. Jadi, siapa yang lebih kuat?"},
+    {"id": "s2", "text": "Laba sembilan bulan. BBRI empat puluh delapan koma dua triliun, naik enam belas koma delapan persen. BBCA empat puluh lima koma dua triliun, naik empat koma dua persen."},
+    {"id": "s3", "text": "Kredit. BBRI seribu enam ratus empat puluh tujuh triliun, tumbuh empat belas koma lima persen. BBCA seribu enam puluh tiga triliun, tumbuh dua belas koma enam persen."},
+    {"id": "s4", "text": "Kualitas dan margin. NPL BBCA satu koma delapan persen, BBRI dua koma sembilan persen. Margin bunga BBRI enam koma satu enam persen, BBCA lima koma enam."},
+    {"id": "s5", "text": "Tapi arahnya beda. NIM BBRI turun dibanding tahun lalu, dari enam koma lima tiga. NIM BBCA justru membaik, dari kuartal dua ke kuartal tiga."},
+    {"id": "s6", "text": "BBCA sendiri kena jual bersih asing sekitar tiga puluh satu triliun, sampai awal Juni. Padahal labanya masih tumbuh."},
+    {"id": "s7", "text": "Menurut salah satu analis, ini bukan soal fundamental. BBCA dan BBRI paling likuid, jadi jadi pintu keluar pertama saat asing menarik dana."},
+    {"id": "s8", "text": "Jadi siapa lebih kuat? BBRI unggul di pertumbuhan laba dan kredit. BBCA unggul di kualitas kredit. Pilihannya tergantung profil risikomu."},
+    {"id": "s9", "text": "Sekarang giliran kamu. BBCA atau BBRI, yang mana pilihanmu? Tulis jawabanmu di komentar ya."}
+  ]
+}

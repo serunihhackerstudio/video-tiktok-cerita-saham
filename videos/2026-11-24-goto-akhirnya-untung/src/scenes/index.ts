@@ -1,0 +1,110 @@
+import React from "react";
+import {C} from "../theme";
+import {SceneProps} from "../timing";
+import {bars, bigNumber, cta, steps} from "../gen";
+
+// id harus sama dengan src/config.ts dan tts/naskah.json
+export const SCENE_COMPONENTS: Record<string, React.FC<SceneProps>> = {
+  s1: bigNumber({
+    label: "LABA BERSIH JAN–SEP 2026",
+    to: 1.16,
+    dec: 2,
+    prefix: "Rp",
+    suffix: " T",
+    sub: "tahun lalu: rugi Rp775 M",
+    color: C.scan,
+    mood: "happy",
+    pill: "Tapi ada catatannya",
+    a: {num: ["sembilan", 0.3], pill: ["tunggu", 0.85]},
+  }),
+  s2: bars({
+    label: "PENDAPATAN JAN–SEP",
+    to: 16.55,
+    dec: 2,
+    prefix: "Rp",
+    suffix: " T",
+    sub: "+24,5% vs 2025",
+    bars: [
+      {k: "2025", v: 13.3, color: C.dim},
+      {k: "2026", v: 16.55, color: C.scan},
+    ],
+    max: 18,
+    note: "Rp triliun, skala dari nol",
+    mood: "happy",
+    a: {num: ["enam", 0.45], sub: ["naik", 0.1]},
+  }),
+  s3: bigNumber({
+    label: "ADJUSTED EBITDA JAN–SEP",
+    to: 2.87,
+    dec: 2,
+    prefix: "Rp",
+    suffix: " T",
+    sub: "+115% · target 2026: Rp3,5–3,7 T",
+    color: C.tape,
+    mood: "ok",
+    stamp: {text: "+115%", color: C.scan, size: 110},
+    a: {num: ["dua", 0.4], stamp: ["seratus", 0.2]},
+  }),
+  s4: bigNumber({
+    label: "PENDAPATAN MOBILITY · Q3",
+    to: -5,
+    suffix: "%",
+    sub: "komisi GoRide dibatasi 8% sejak 1 Juli",
+    color: C.siren,
+    mood: "meh",
+    pill: "Catatan #1: ojek online",
+    stamp: {text: "KOMISI 8%", color: C.siren, size: 100},
+    a: {num: ["turun", 0.5], pill: ["pertama", 0.1], stamp: ["komisi", 0.7]},
+  }),
+  s5: bars({
+    label: "ADJUSTED EBITDA · Q3",
+    to: 950,
+    dec: 0,
+    prefix: "Rp",
+    suffix: " M",
+    sub: "fintech ±58% dari total",
+    bars: [
+      {k: "Fintech", v: 550, color: C.scan},
+      {k: "Lainnya", v: 400, color: C.dim},
+    ],
+    max: 600,
+    note: "Rp miliar, skala dari nol",
+    mood: "ok",
+    a: {num: ["sembilan", 0.8], sub: ["lima", 0.45]},
+  }),
+  s6: steps({
+    title: "CATATAN #2 · RISIKO FINTECH",
+    chips: [
+      {t: "Fintech = penopang laba", sub: "EBITDA Q3 Rp550 M", color: C.scan, a: ["fintech", 0.1]},
+      {t: "GOTO perketat kredit", sub: "pengguna berisiko tinggi, sejak Q2", color: C.tape, a: ["memperketat", 0.25]},
+      {t: "Kredit macet naik?", sub: "laba fintech bisa terganggu", color: C.siren, a: ["macet", 0.7]},
+    ],
+  }),
+  s7: bigNumber({
+    label: "SAHAM TREASURI DIBATALKAN",
+    to: 2.7,
+    dec: 1,
+    suffix: "%",
+    sub: "32 miliar lembar · RUPSLB 14 Okt 2026",
+    color: C.tape,
+    mood: "ok",
+    pill: "dari saham beredar",
+    a: {num: ["dua", 0.7], pill: ["saham", 0.9]},
+  }),
+  s8: steps({
+    title: "RAPOR GOTO",
+    chips: [
+      {t: "Laba 3 kuartal beruntun", sub: "sudah mulai untung", color: C.scan, a: ["sudah", 0.2]},
+      {t: "Mobility: pendapatan turun", sub: "komisi dibatasi", color: C.siren, a: ["mulus", 0.55]},
+      {t: "Cek konsistensi laba", sub: "dan dari mana asalnya", color: C.tape, a: ["konsisten", 0.85]},
+    ],
+    stamp: {text: "BELUM TENTU MULUS", color: C.tape, size: 62, a: ["mulus", 0.55]},
+  }),
+  s9: cta({
+    pill: "Layak atau tunggu?",
+    question: "GOTO sekarang menurutmu?",
+    opts: ["LAYAK", "TUNGGU"],
+    disclaimer: "Data: laporan Q3 2026 GOTO via Bisnis.com, Katadata, Kontan. Bukan ajakan membeli atau menjual.",
+    a: {intro: ["giliran", 0.08], pick: ["layak", 0.4], write: ["tulis", 0.75]},
+  }),
+};

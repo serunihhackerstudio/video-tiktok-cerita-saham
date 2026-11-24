@@ -1,0 +1,16 @@
+{
+  "voice": "id-ID-ArdiNeural",
+  "rate": "+6%",
+  "pitch": "-4Hz",
+  "scenes": [
+    {"id": "s1", "text": "Dividen seratus empat belas rupiah per saham. Kedengarannya untung. Tapi di hari tertentu, harga sahamnya justru ikut turun. Kok bisa?"},
+    {"id": "s2", "text": "Contohnya Bukit Asam, atau PTBA. Laba bersih tahun lalu dua koma sembilan tiga triliun. Dibagi empat puluh lima persen jadi dividen, totalnya sekitar satu koma tiga triliun."},
+    {"id": "s3", "text": "Per lembar saham, dividennya seratus empat belas rupiah. Harga penutupan sebelum RUPS dua ribu enam ratus tiga puluh. Jadi imbal hasil dividennya empat koma tiga persen."},
+    {"id": "s4", "text": "Sekarang kuncinya. Kalau kamu beli sebelum cum date, kamu berhak dapat dividen. Mulai ex-date, tanggal dua puluh tiga Juni, pembeli baru nggak dapat lagi. Dividennya cair tanggal sepuluh Juli."},
+    {"id": "s5", "text": "Nah, karena uangnya keluar dari kas perusahaan, secara teori harga saham turun sebesar dividennya. Dari dua ribu enam ratus tiga puluh, jadi sekitar dua ribu lima ratus enam belas."},
+    {"id": "s6", "text": "Jadi dividen bukan uang gratis. Cuma pindah dari nilai sahammu ke rekeningmu. Total kekayaanmu, secara teori, sama saja."},
+    {"id": "s7", "text": "Yang perlu dicermati, rasio dividennya turun. Tahun buku dua ribu dua puluh empat, tujuh puluh lima persen dari laba. Tahun buku dua ribu dua puluh lima, tinggal empat puluh lima persen."},
+    {"id": "s8", "text": "Jadi dividen besar bukan alasan tunggal untuk membeli. Lihat dulu labanya, kasnya, dan apakah dividennya konsisten."},
+    {"id": "s9", "text": "Sekarang giliran kamu. Lebih suka dividen besar, atau harga saham naik? Tulis jawabanmu di komentar ya."}
+  ]
+}

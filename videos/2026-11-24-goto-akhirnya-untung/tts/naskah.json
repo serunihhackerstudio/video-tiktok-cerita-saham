@@ -1,0 +1,16 @@
+{
+  "voice": "id-ID-ArdiNeural",
+  "rate": "+6%",
+  "pitch": "-4Hz",
+  "scenes": [
+    {"id": "s1", "text": "GOTO akhirnya untung. Tiga kuartal berturut-turut. Laba sembilan bulan satu koma enam belas triliun, padahal tahun lalu masih rugi. Tapi tunggu, ada catatannya."},
+    {"id": "s2", "text": "Pendapatannya naik dua puluh empat koma lima persen, jadi enam belas koma lima lima triliun."},
+    {"id": "s3", "text": "EBITDA yang disesuaikan naik seratus lima belas persen, jadi dua koma delapan tujuh triliun. Targetnya setahun dinaikkan jadi tiga koma lima sampai tiga koma tujuh triliun."},
+    {"id": "s4", "text": "Catatan pertama: ojek online. Di kuartal tiga, pendapatan mobility turun lima persen, karena komisi GoRide dibatasi delapan persen sejak satu Juli."},
+    {"id": "s5", "text": "Catatan kedua: labanya banyak ditopang fintech. Di kuartal tiga, EBITDA fintech lima ratus lima puluh miliar, dari total sembilan ratus lima puluh miliar."},
+    {"id": "s6", "text": "Dan GOTO memperketat kredit untuk pengguna berisiko tinggi sejak kuartal dua. Kalau kredit macet naik, laba fintech bisa terganggu."},
+    {"id": "s7", "text": "Kabar lain: pemegang saham menyetujui pembatalan tiga puluh dua miliar saham treasuri, sekitar dua koma tujuh persen dari saham beredar."},
+    {"id": "s8", "text": "Jadi GOTO sudah mulai untung, tapi belum tentu mulus. Lihat terus apakah labanya konsisten, dan dari mana asalnya."},
+    {"id": "s9", "text": "Sekarang giliran kamu. GOTO, sudah layak dipegang, atau tunggu dulu? Tulis jawabanmu di komentar ya."}
+  ]
+}
